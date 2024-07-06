@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_common_slides",
+  "info": {
+    "displayName": "Slide",
+    "icon": "chartCircle"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.text-item"
+    },
+    "topTitle": {
+      "type": "string"
+    }
+  }
+}

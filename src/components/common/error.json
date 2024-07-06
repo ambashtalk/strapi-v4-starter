@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_errors",
+  "info": {
+    "displayName": "error",
+    "icon": "fileError",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "minLength": {
+      "type": "text"
+    },
+    "maxLength": {
+      "type": "text"
+    },
+    "invalid": {
+      "type": "text"
+    },
+    "empty": {
+      "type": "text"
+    }
+  }
+}

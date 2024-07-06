@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_common_inputs",
+  "info": {
+    "displayName": "Input",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "text",
+      "required": false
+    },
+    "placeholder": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "number",
+        "email",
+        "password",
+        "checkbox",
+        "radio",
+        "file",
+        "date",
+        "button",
+        "submit"
+      ],
+      "required": true,
+      "default": "text"
+    },
+    "errors": {
+      "displayName": "error",
+      "type": "component",
+      "repeatable": false,
+      "component": "common.error"
+    },
+    "required": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

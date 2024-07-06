@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "icon": "collapse"
+  },
+  "options": {},
+  "attributes": {
+    "slides": {
+      "displayName": "Slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.slide"
+    }
+  }
+}

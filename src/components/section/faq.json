@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "discuss"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "faqs": {
+      "displayName": "Faq Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.faq-item"
+    }
+  }
+}

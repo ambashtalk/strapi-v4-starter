@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.text-item",
+      "required": true
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.text-item",
+      "required": true
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.list-item"
+    }
+  }
+}

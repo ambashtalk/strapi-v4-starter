@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_highlights",
+  "info": {
+    "displayName": "Highlight",
+    "icon": "eye"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.text-item"
+    }
+  }
+}

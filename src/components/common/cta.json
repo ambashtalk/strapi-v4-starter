@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.list-item"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    }
+  }
+}

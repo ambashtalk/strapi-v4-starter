@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_section_headers",
+  "info": {
+    "displayName": "Header",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "string",
+      "required": true
+    },
+    "companyLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "navItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.list-item"
+    },
+    "hamburgerIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
